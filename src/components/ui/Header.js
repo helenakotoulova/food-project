@@ -8,7 +8,7 @@ function Header(props) {
 
     return(
         <header className={classes.header}>
-            <h2 clasName={classes.title}>React Meals</h2>
+            <h2 className={classes.title}>React Meals</h2>
             <div className={classes.cart} onClick={props.onClick}>
                 <span><BsCart3 /></span>
                 <p className={classes.cartInner}>Your cart</p>

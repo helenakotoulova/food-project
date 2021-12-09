@@ -1,5 +1,5 @@
 import classes from './Modal.module.css';
-import MealList from '../MealList';
+import CartList from '../cart/CartList';
 import { MealContext } from '../context/mealContext';
 import {useContext} from 'react';
 
@@ -10,7 +10,7 @@ function Modal() {
     return(
         <div className={classes.modal}>
             <h2>In your cart:</h2>
-            <MealList meals={mealCtx.mealsInCart} />
+            <CartList meals={mealCtx.mealsInCart} />
         </div>
     )
 }

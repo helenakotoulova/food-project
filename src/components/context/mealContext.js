@@ -22,6 +22,7 @@ function MealProvider(props) {
     });
   }
 
+
   const context = {
       mealsInCart:mealsInCart,
       totalMeals:mealsInCart.length,
